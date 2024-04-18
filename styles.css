@@ -4,6 +4,9 @@ body {
 	background-blend-mode: screen;
     font-family: "Helvetica", sans-serif;
     margin-top: 210px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
     padding: 0px;
 	color: #fff;
 }
@@ -30,28 +33,40 @@ body {
 }
 
 h1, p {
-  position: relative; /* Ensure proper positioning */
-  z-index: 1; /* Place the text above the background */
-  color: #FFFFFF;
+    text-align: center;
+    position: relative; /* Ensure proper positioning */
+    z-index: 1; /* Place the text above the background */
+    color: #FFFFFF;
 }
 
 
-header,section, footer {
+section, footer {
     padding: 20px;
-	position: relative;
 	z-index: 1;
 	color: #fff;
 }
 
 header {
 	position:fixed;
-	width: 100vw;
+	width: 100%;
 	height: 120px;
+	padding: 20px;
 	margin-top: -210px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
     background-color: #333;
     color: #fff;
-    text-align: center;
 	z-index: 999;
+}
+
+header h1, header p {
+    margin-right: 46px;
+    text-align: center;
 }
 
 nav a {
@@ -66,6 +81,7 @@ nav {
 	right: 0;
 	width: 100vw; /*Always match the screen size*/
 	height: 50px;
+	margin: 0px;
 	padding: 0px;
 	position: fixed;
 	z-index: 1000;
