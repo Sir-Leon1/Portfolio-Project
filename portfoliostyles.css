@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style portfolio items */
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Add hover effect */
+.portfolio-item:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
