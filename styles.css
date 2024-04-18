@@ -65,15 +65,18 @@ header {
 }
 
 header h1, header p {
-    margin-right: 46px;
+    margin-right: 39px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
     text-align: center;
 }
 
 nav a {
-	padding: 3px 10px;
-	border: 1px solid #333;
-	border-radius: 5px;
-	transition: border-color 0.3;
+    padding: 1px 8px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    transition: border-color 0.3;
 }
 
 nav {
@@ -98,7 +101,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 10px;
 	
 }
 
