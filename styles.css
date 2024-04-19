@@ -32,7 +32,62 @@ body {
   z-index: -1; /* Place the pseudo-element behind other content */
 }
 
+.instance-parent {
+	margin: 10px;
+  	width: 100vw;
+  	border-radius: 20px;
+  	background-color: #171717;
+  	backdrop-filter: blur(15px);
+  	border: 1px solid #fff;
+  	box-sizing: border-box;
+  	height: 50px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 10px;
+  	z-index: 0;
+}
+
+.home {
+  	position: relative;
+  	letter-spacing: -0.01em;
+}
+
+.home-wrapper {
+	height: px;
+  	border-radius: 40px;
+  	background-color: #fd853a;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 5px 40px;
+}
+
+.home-container {
+  	border-radius: 60px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 20px 40px;
+}
+
+.typo {
+	font-size: 30px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 3px;
+}
+
 h1, p {
+	margin: 10px;
     text-align: center;
     position: relative; /* Ensure proper positioning */
     z-index: 1; /* Place the text above the background */
@@ -66,10 +121,9 @@ header {
 
 header h1, header p {
     margin-right: 39px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 0px;
-    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 nav a {
